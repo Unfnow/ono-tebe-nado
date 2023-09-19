@@ -326,8 +326,12 @@
 }
 
 .about_text {
-    margin-top: 25px;
+    margin-bottom: 25px;
     line-height: 24px;
+}
+
+.about_text:last-child {
+    margin-bottom: 0px;
 }
 
 .footer {
@@ -344,10 +348,6 @@
 .footer_address {
     width: 300px;
     justify-items: center;
-}
-
-.address_link {
-    text-decoration: none;
 }
 
 .footer_menu {
