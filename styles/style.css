@@ -325,13 +325,13 @@
     margin-bottom: 100px;
 }
 
-.about_text {
+.about_text { 
     margin-bottom: 25px;
     line-height: 24px;
 }
 
-.about_text:last-child {
-    margin-bottom: 0px;
+.about_text:last-child { /*Убирает отступ у последнего элемента, даже если он стоит первым*/
+    margin-bottom: 0px; 
 }
 
 .footer {
